@@ -7,13 +7,13 @@ a framework for defining "patterns" from the decomposed elements of a network de
 
 ## components
 - RackBuilder
--- topology.yaml
+  - topology.yaml
 - PodBuilder
--- N x RackBuilder
--- topology.yaml
+  - N x RackBuilder
+  - topology.yaml
 - ZoneBuilder
--- N x PodBuilder
--- topology.yaml
+  - N x PodBuilder
+  - topology.yaml
 - PopBuilder
--- N x RackBuilder
--- topology.yaml
+  - N x RackBuilder
+  - topology.yaml
