@@ -4,3 +4,16 @@ a framework for defining "patterns" from the decomposed elements of a network de
 - cable maps
 - DNS updates
 - etc.
+
+## components
+- RackBuilder
+-- topology.yaml
+- PodBuilder
+-- N x RackBuilder
+-- topology.yaml
+- ZoneBuilder
+-- N x PodBuilder
+-- topology.yaml
+- PopBuilder
+-- N x RackBuilder
+-- topology.yaml
